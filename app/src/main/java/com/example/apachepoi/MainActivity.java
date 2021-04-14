@@ -309,8 +309,7 @@ public class MainActivity extends AppCompatActivity implements  SensorEventListe
                     0, gyroscopeReading.length);
         }
 
-        //time = System.currentTimeMillis();
-        //String  formattedDate = DateFormat.getDateInstance().format(timestamp);
+        //Etiqueta de tiempo para los sensores;
         String timeStamp = new SimpleDateFormat("dd/MM/yyyy_HH:mm:ss:ms").format(new Date());
         //time = new Date().getTime();
 
